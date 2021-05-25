@@ -32,6 +32,17 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
     },
 
+    //Insert Patients
+    singInCard:{
+        padding: '30px 20px',
+        width: '50%',
+        margin: '20px auto',
+    },
+
+    singInAvatar:{
+        backgroundColor: '#3f51b5',
+    },
+
     //Footer
     footer:{
         backgroundColor: theme.palette.background.papper,

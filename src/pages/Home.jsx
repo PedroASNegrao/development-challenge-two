@@ -1,7 +1,6 @@
 import React from 'react';
 import { Typography, Button, Grid, Container} from "@material-ui/core";
 import useStyles from '../styles';
-import {Link} from "react-router-dom";
 
 
 const Home = () =>{
@@ -20,15 +19,13 @@ const Home = () =>{
                     <div className={classes.button}>
                         <Grid container spacing={2} justify="center">
                             <Grid item>
-                                <Link to="/PatientList">
-                                    <Button variant="contained" color="primary">
-                                        See my patients 
-                                    </Button>
-                                </Link>
+                                <Button href="/PatientList" variant="contained" color="primary">
+                                    See my patients 
+                                </Button>
                             </Grid>
                             <Grid item>
-                                <Button variant="outlined" color="primary">
-                                    Secundary action
+                                <Button href="/InsertPatient" variant="outlined" color="primary">
+                                    Insert Patient
                                 </Button>
                             </Grid>
                         </Grid>
