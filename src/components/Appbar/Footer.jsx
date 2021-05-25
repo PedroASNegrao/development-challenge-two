@@ -1,5 +1,5 @@
 import React from 'react';
-import useStyles from './../styles'
+import useStyles from './../../styles'
 import { Typography} from "@material-ui/core";
 // Caso queria outro ícone, ir nesse site https://material-ui.com/pt/components/material-icons/
 
