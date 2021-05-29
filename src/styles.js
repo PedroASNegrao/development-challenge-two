@@ -39,6 +39,16 @@ const useStyles = makeStyles((theme) => ({
         margin: '20px auto',
     },
 
+    singInForm:{
+        padding: '30px',
+        margin: '20px auto',
+    },
+
+    singInFormLabel:{
+        marginTop: '20px',
+        marginBottom: '20px',
+    },
+
     singInAvatar:{
         backgroundColor: '#3f51b5',
     },
